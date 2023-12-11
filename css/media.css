@@ -831,6 +831,12 @@ body {
    margin-bottom: 6px;
    display: block;
 }
+.feature-catalog > * {
+    display: block;
+}
+.feature-catalog > *:last-child {
+    text-align: left;
+}
 .item-catalog__title {
     font-size: 14px;
 }
