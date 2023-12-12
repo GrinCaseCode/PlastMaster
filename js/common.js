@@ -106,7 +106,10 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	});
 
 
-
+	$(".btn-main_filter").click(function(e) {
+		e.preventDefault();
+		$(".nav-catalog, .sorting-catalog").slideToggle(200);
+	});
 	//слайдер
 
 	$('.slider-sertificats').slick({
