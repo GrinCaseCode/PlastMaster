@@ -1572,3 +1572,7 @@ background: #EBF4F8;
 .item-select .jqselect {
 	width: 100%;
 }
+.page-categories {
+	padding-bottom: 40px;
+	background: #EBF4F8;
+}

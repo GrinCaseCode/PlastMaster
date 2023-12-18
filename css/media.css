@@ -175,6 +175,7 @@
 }
 .row_categories > .col-lg-4 .item-category__image {
 	transform-origin: 50% 100%;
+    transform: scale(0.9);
 }
 .categories {
 	padding-bottom: 45px;
@@ -463,7 +464,7 @@
  padding-top: 15px;
 }
 .item-category {
-    min-height: 230px;
+    min-height: 200px;
     padding: 16px 15px;
     margin-bottom: 10px;
 }
@@ -885,6 +886,9 @@ body {
 }
 .sorting-catalog .item-select, .sorting-catalog .btn-select {
     margin-right: 0;
+}
+.item-category {
+    min-height: 230px;
 }
 }
 
