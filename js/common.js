@@ -88,9 +88,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 
 	$(".open-search").click(function() {
-		$(".header-bottom").slideUp(200);
-		$(".menu-overlay").fadeOut(200);
-		$(".sandwich").removeClass("active");
+		{
+			if ($(window).width() < 992) { 
+				$(".header-bottom").slideUp(200);
+				$(".menu-overlay").fadeOut(200);
+				$(".sandwich").removeClass("active");
+			}
+		}	
 		if ($(".header-search").hasClass("active")) {
 			$(".header-search").removeClass("active");
 		} else {
