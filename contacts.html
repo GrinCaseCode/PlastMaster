@@ -19,8 +19,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.3" />
-	<link rel="stylesheet" href="css/media.css?ver=1.3" />
+	<link rel="stylesheet" href="css/main.css?ver=1.6" />
+	<link rel="stylesheet" href="css/media.css?ver=1.6" />
 </head>
 
 <body>
@@ -141,89 +141,102 @@
 					<li>Контакты</li>
 				</ul>
 				<h1 class="title-section">Контакты</h1>
-				<div class="block-contacts">
-					<div class="row">
-						<div class="col-lg-4">
-							<div class="block-contacts__title">Адрес (Москва и МО):</div>
-							<p>142714, МО, Ленинский район, <br>с. Остров, ул. Индустриальная, вл. 1, стр. 4</p>
-							<a href="#" class="btn-main">Проложить маршрут</a>
-						</div>
-						<div class="col-lg-3">
-							<div class="block-contacts__item">
-								<div class="block-contacts__subtitle">Телефоны:</div>
-								<p><a href="tel:88005117077">8 (800) 511-70-77</a> (Бесплатно по всей России)</p>
-								<p><a href="tel:89031104122">8 (903) 110-41-22</a> (Оптовые продажи) Руслан</p>
+				<ul class="tabs">
+					<li class="active"><a href="#tab1">Отдел продаж</a></li>
+					<li><a href="#tab2">Сервисный отдел</a></li>
+					<li><a href="#tab3">Отдел логистики</a></li>
+				</ul>
+				<div class="tab-container">
+					<div class="tab-pane" id="tab1">
+						<div class="block-contacts">
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="block-contacts__title">Адрес (Москва и МО):</div>
+									<p>142714, МО, Ленинский район, <br>с. Остров, ул. Индустриальная, вл. 1, стр. 4</p>
+								</div>
+								<div class="col-lg-3">
+									<div class="block-contacts__item">
+										<div class="block-contacts__subtitle">Телефоны:</div>
+										<p><a href="tel:88005117077">8 (800) 511-70-77</a> (Бесплатно по всей России)</p>
+										<p><a href="tel:89031104122">8 (903) 110-41-22</a> (Оптовые продажи) Руслан</p>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="block-contacts__item">
+										<div class="block-contacts__subtitle">Режим работы:</div>
+										<p>Офис: ПН-ПТ с 9:00-18:00</p>
+										<p>Склад: ПН-ПТ с 9:00-18:00</p>
+									</div>
+								</div>
+								<div class="col-lg-2">
+									<div class="block-contacts__item">
+										<div class="block-contacts__subtitle">E-mail:</div>
+										<p><a href="mailto:info@plastmastik.ru">info@plastmastik.ru</a></p>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="col-lg-3">
-							<div class="block-contacts__item">
-								<div class="block-contacts__subtitle">Режим работы:</div>
-								<p>Офис: ПН-ПТ с 9:00-18:00</p>
-								<p>Склад: ПН-ПТ с 9:00-18:00</p>
-							</div>
-						</div>
-						<div class="col-lg-2">
-							<div class="block-contacts__item">
-								<div class="block-contacts__subtitle">E-mail:</div>
-								<p><a href="mailto:info@plastmastik.ru">info@plastmastik.ru</a></p>
-							</div>
-						</div>
+						<div id="map-contact1" class="map-contact"></div>
 					</div>
-				</div>
-				<div class="block-contacts">
-					<div class="row">
-						<div class="col-lg-4">
-							<div class="block-contacts__title">Адрес (Санкт-Петербург и ЛО):</div>
-							<p>Санкт-Петербург, Колпинский р-н, <br>пос. Петро-Славянка, ул. Софийская, 127, корп.12</p>
-							<a href="#" class="btn-main">Проложить маршрут</a>
-						</div>
-						<div class="col-lg-3">
-							<div class="block-contacts__item">
-								<div class="block-contacts__subtitle">Телефоны:</div>
-								<p><a href="tel:88005117077">8 (800) 511-70-77</a> (Бесплатно по всей России)</p>
+					<div class="tab-pane" id="tab2">
+						<div class="block-contacts">
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="block-contacts__title">Адрес (Санкт-Петербург и ЛО):</div>
+									<p>Санкт-Петербург, Колпинский р-н, <br>пос. Петро-Славянка, ул. Софийская, 127, корп.12</p>
+								</div>
+								<div class="col-lg-3">
+									<div class="block-contacts__item">
+										<div class="block-contacts__subtitle">Телефоны:</div>
+										<p><a href="tel:88005117077">8 (800) 511-70-77</a> (Бесплатно по всей России)</p>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="block-contacts__item">
+										<div class="block-contacts__subtitle">Режим работы:</div>
+										<p>Офис: ПН-ПТ с 9:00-18:00</p>
+										<p>Склад: ПН-ПТ с 9:00-18:00</p>
+									</div>
+								</div>
+								<div class="col-lg-2">
+									<div class="block-contacts__item">
+										<div class="block-contacts__subtitle">E-mail:</div>
+										<p><a href="mailto:info@plastmastik.ru">info@plastmastik.ru</a></p>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="col-lg-3">
-							<div class="block-contacts__item">
-								<div class="block-contacts__subtitle">Режим работы:</div>
-								<p>Офис: ПН-ПТ с 9:00-18:00</p>
-								<p>Склад: ПН-ПТ с 9:00-18:00</p>
-							</div>
-						</div>
-						<div class="col-lg-2">
-							<div class="block-contacts__item">
-								<div class="block-contacts__subtitle">E-mail:</div>
-								<p><a href="mailto:info@plastmastik.ru">info@plastmastik.ru</a></p>
-							</div>
-						</div>
+						<div id="map-contact2" class="map-contact"></div>
 					</div>
-				</div>
-				<div class="block-contacts">
-					<div class="row">
-						<div class="col-lg-4">
-							<div class="block-contacts__title">Адрес (Ульяновск и УО):</div>
-							<p>Ульяновск, <br>Московское шоссе, 3, офис, 335А</p>
-							<a href="#" class="btn-main">Проложить маршрут</a>
-						</div>
-						<div class="col-lg-3">
-							<div class="block-contacts__item">
-								<div class="block-contacts__subtitle">Телефоны:</div>
-								<p><a href="tel:88005117077">8 (800) 511-70-77</a> (Бесплатно по всей России)</p>
+					<div class="tab-pane" id="tab3">
+						<div class="block-contacts">
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="block-contacts__title">Адрес (Ульяновск и УО):</div>
+									<p>Ульяновск, <br>Московское шоссе, 3, офис, 335А</p>
+								</div>
+								<div class="col-lg-3">
+									<div class="block-contacts__item">
+										<div class="block-contacts__subtitle">Телефоны:</div>
+										<p><a href="tel:88005117077">8 (800) 511-70-77</a> (Бесплатно по всей России)</p>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="block-contacts__item">
+										<div class="block-contacts__subtitle">Режим работы:</div>
+										<p>Офис: ПН-ПТ с 9:00-18:00</p>
+										<p>Склад: ПН-ПТ с 9:00-18:00</p>
+									</div>
+								</div>
+								<div class="col-lg-2">
+									<div class="block-contacts__item">
+										<div class="block-contacts__subtitle">E-mail:</div>
+										<p><a href="mailto:info@plastmastik.ru">info@plastmastik.ru</a></p>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="col-lg-3">
-							<div class="block-contacts__item">
-								<div class="block-contacts__subtitle">Режим работы:</div>
-								<p>Офис: ПН-ПТ с 9:00-18:00</p>
-								<p>Склад: ПН-ПТ с 9:00-18:00</p>
-							</div>
-						</div>
-						<div class="col-lg-2">
-							<div class="block-contacts__item">
-								<div class="block-contacts__subtitle">E-mail:</div>
-								<p><a href="mailto:info@plastmastik.ru">info@plastmastik.ru</a></p>
-							</div>
-						</div>
+						<div id="map-contact3" class="map-contact"></div>
 					</div>
 				</div>
 				<div class="form-contacts">
@@ -420,7 +433,190 @@
 	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
 	<script src="libs/mask/jquery.maskedinput.js"></script>
 	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-	<script src="js/common.js?ver=1.3"></script>
+	<script src="js/common.js?ver=1.6"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+	<script>
+		$(document).ready(function() {
+			ymaps.ready(init);
+
+			function init() {
+				var myMap = new ymaps.Map('map-contact1', {
+					center: [55.576476, 37.849107],
+					zoom: 17
+				}, {
+					searchControlProvider: 'yandex#search'
+				});		
+
+				myPlacemark1 = new ymaps.Placemark([55.576476, 37.849107], {
+					balloonContent: '<div class="baloon-content">Региональное представительство 1</div>',
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: 'img/pin1.svg',
+					hideIconOnBalloonOpen: false,
+					iconImageSize: [43, 43],
+					iconImageOffset: [-21, -43],
+					balloonOffset: [0, -43]
+				});
+
+				myPlacemark2 = new ymaps.Placemark([55.576634, 37.848162], {
+					balloonContent: '<div class="baloon-content">Дилер 1</div>',
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: 'img/pin2.svg',
+					hideIconOnBalloonOpen: false,
+					iconImageSize: [43, 43],
+					iconImageOffset: [-21, -43],
+					balloonOffset: [0, -43]
+				});
+
+				myPlacemark3 = new ymaps.Placemark([55.576999, 37.846896], {
+					balloonContent: '<div class="baloon-content">Склад 1</div>',
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: 'img/pin3.svg',
+					hideIconOnBalloonOpen: false,
+					iconImageSize: [43, 43],
+					iconImageOffset: [-21, -43],
+					balloonOffset: [0, -43]
+				});
+
+				myMap.controls.remove('searchControl');
+				myMap.behaviors.disable('scrollZoom');
+				myMap.geoObjects.add(myPlacemark1);
+				myMap.geoObjects.add(myPlacemark2);
+				myMap.geoObjects.add(myPlacemark3);
+
+				myMap.controls.remove('geolocationControl');
+				myMap.controls.remove('searchControl'); 
+				myMap.controls.remove('trafficControl'); 
+				myMap.controls.remove('typeSelector');
+				myMap.controls.remove('fullscreenControl'); 
+				myMap.controls.remove('rulerControl');
+				myMap.behaviors.disable(['scrollZoom']); 
+
+			}
+		});
+		$(document).ready(function() {
+			ymaps.ready(init);
+
+			function init() {
+				var myMap = new ymaps.Map('map-contact2', {
+					center: [55.576476, 37.849107],
+					zoom: 17
+				}, {
+					searchControlProvider: 'yandex#search'
+				});		
+
+				myPlacemark1 = new ymaps.Placemark([55.576476, 37.849107], {
+					balloonContent: '<div class="baloon-content">Региональное представительство 1</div>',
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: 'img/pin1.svg',
+					hideIconOnBalloonOpen: false,
+					iconImageSize: [43, 43],
+					iconImageOffset: [-21, -43],
+					balloonOffset: [0, -43]
+				});
+
+				myPlacemark2 = new ymaps.Placemark([55.576634, 37.848162], {
+					balloonContent: '<div class="baloon-content">Дилер 1</div>',
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: 'img/pin2.svg',
+					hideIconOnBalloonOpen: false,
+					iconImageSize: [43, 43],
+					iconImageOffset: [-21, -43],
+					balloonOffset: [0, -43]
+				});
+
+				myPlacemark3 = new ymaps.Placemark([55.576999, 37.846896], {
+					balloonContent: '<div class="baloon-content">Склад 1</div>',
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: 'img/pin3.svg',
+					hideIconOnBalloonOpen: false,
+					iconImageSize: [43, 43],
+					iconImageOffset: [-21, -43],
+					balloonOffset: [0, -43]
+				});
+
+				myMap.controls.remove('searchControl');
+				myMap.behaviors.disable('scrollZoom');
+				myMap.geoObjects.add(myPlacemark1);
+				myMap.geoObjects.add(myPlacemark2);
+				myMap.geoObjects.add(myPlacemark3);
+
+				myMap.controls.remove('geolocationControl');
+				myMap.controls.remove('searchControl'); 
+				myMap.controls.remove('trafficControl'); 
+				myMap.controls.remove('typeSelector');
+				myMap.controls.remove('fullscreenControl'); 
+				myMap.controls.remove('rulerControl');
+				myMap.behaviors.disable(['scrollZoom']); 
+
+			}
+		});
+		$(document).ready(function() {
+			ymaps.ready(init);
+
+			function init() {
+				var myMap = new ymaps.Map('map-contact3', {
+					center: [55.576476, 37.849107],
+					zoom: 17
+				}, {
+					searchControlProvider: 'yandex#search'
+				});		
+
+				myPlacemark1 = new ymaps.Placemark([55.576476, 37.849107], {
+					balloonContent: '<div class="baloon-content">Региональное представительство 1</div>',
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: 'img/pin1.svg',
+					hideIconOnBalloonOpen: false,
+					iconImageSize: [43, 43],
+					iconImageOffset: [-21, -43],
+					balloonOffset: [0, -43]
+				});
+
+				myPlacemark2 = new ymaps.Placemark([55.576634, 37.848162], {
+					balloonContent: '<div class="baloon-content">Дилер 1</div>',
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: 'img/pin2.svg',
+					hideIconOnBalloonOpen: false,
+					iconImageSize: [43, 43],
+					iconImageOffset: [-21, -43],
+					balloonOffset: [0, -43]
+				});
+
+				myPlacemark3 = new ymaps.Placemark([55.576999, 37.846896], {
+					balloonContent: '<div class="baloon-content">Склад 1</div>',
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: 'img/pin3.svg',
+					hideIconOnBalloonOpen: false,
+					iconImageSize: [43, 43], 
+					iconImageOffset: [-21, -43],
+					balloonOffset: [0, -43]
+				});
+
+				myMap.controls.remove('searchControl');
+				myMap.behaviors.disable('scrollZoom');
+				myMap.geoObjects.add(myPlacemark1);
+				myMap.geoObjects.add(myPlacemark2);
+				myMap.geoObjects.add(myPlacemark3);
+
+				myMap.controls.remove('geolocationControl');
+				myMap.controls.remove('searchControl'); 
+				myMap.controls.remove('trafficControl'); 
+				myMap.controls.remove('typeSelector');
+				myMap.controls.remove('fullscreenControl'); 
+				myMap.controls.remove('rulerControl');
+				myMap.behaviors.disable(['scrollZoom']); 
+
+			}
+		});
+	</script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
