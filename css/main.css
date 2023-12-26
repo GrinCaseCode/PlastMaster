@@ -1773,3 +1773,40 @@ background: #3167A2;
 	padding: 0 7px;
 	margin-bottom: 14px;
 }
+.tabs {
+	gap: 11px;
+	display: flex;
+	align-items: center;
+}
+.tabs a {
+	padding: 9px 23px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 160%;
+	color: #223E7C;
+	text-align: center;
+	display: block;
+	border-radius: 3px;
+	border: 1px solid #2A60AD;
+}
+.tabs a:hover,
+.tabs .active a {
+	background: #2A60AD;
+	color: #fff;
+}
+.tab-container {
+	padding-top: 22px;
+}
+.tab-pane {
+	display: none;
+}
+.tab-pane:first-child {
+	display: block;
+}
+.map-contact {
+	height: 460px;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 100%;
+	background-color: #ddd;
+}

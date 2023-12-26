@@ -185,6 +185,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(selectTab).fadeIn(200);
 	});
 
+	$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().parent().find(".tab-pane").fadeOut(0);
+		var selectTab2 = $(this).attr("href");
+		$(selectTab2).fadeIn(200);
+	});
+
 
 	jQuery('.quantity').each(function() {
 		var spinner = jQuery(this),

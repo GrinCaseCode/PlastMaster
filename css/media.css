@@ -1070,6 +1070,9 @@ body {
 .partners {
     padding-bottom: 40px;
 }
+.map-contact {
+    height: 380px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1133,6 +1136,13 @@ body {
 }
 .page-contacts {
     padding-bottom: 38px;
+}
+.tabs a {
+    padding: 7px 16px;
+    font-size: 13px;
+}
+.tabs {
+    gap: 6px;
 }
 }
 
@@ -1234,7 +1244,10 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.tabs a {
+    line-height: 140%;
 }
+} 
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
