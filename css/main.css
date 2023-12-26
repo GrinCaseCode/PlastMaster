@@ -1810,3 +1810,23 @@ background: #3167A2;
 	width: 100%;
 	background-color: #ddd;
 }
+.line-map {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.item-map {
+	font-size: 20px;
+	margin-right: 52px;
+	margin-bottom: 35px;
+	font-weight: 600;
+	line-height: 140%;
+	display: flex;
+	align-items: center;
+}
+.item-map:last-child {
+	margin-right: 0;
+}
+.item-map img {
+	margin-right: 17px;
+}

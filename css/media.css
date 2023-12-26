@@ -492,6 +492,16 @@
 .partners {
     padding-bottom: 60px;
 }
+.item-map img {
+    width: 38px;
+    margin-right: 13px;
+    height: auto;
+}
+.item-map {
+    font-size: 17px;
+    margin-right: 39px;
+    margin-bottom: 23px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -1072,6 +1082,15 @@ body {
 }
 .map-contact {
     height: 380px;
+}
+.item-map img {
+    width: 30px;
+    margin-right: 8px;
+}
+.item-map {
+    font-size: 15px;
+    margin-right: 25px;
+    margin-bottom: 18px;
 }
 }
 
