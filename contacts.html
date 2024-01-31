@@ -177,9 +177,9 @@
 							</div>
 						</div>
 						<div class="line-map">
-							<div class="item-map"><img src="img/pin1.svg" alt="alt">Региональные представительства</div>
-							<div class="item-map"><img src="img/pin2.svg" alt="alt">Дилеры</div>
-							<div class="item-map"><img src="img/pin3.svg" alt="alt">Склады</div>
+							<div class="item-map item-map1_1"><img src="img/pin1.svg" alt="alt">Региональные представительства</div>
+							<div class="item-map item-map1_2"><img src="img/pin2.svg" alt="alt">Дилеры</div>
+							<div class="item-map item-map1_3"><img src="img/pin3.svg" alt="alt">Склады</div>
 						</div>
 						<div id="map-contact1" class="map-contact"></div>
 					</div>
@@ -212,9 +212,9 @@
 							</div>
 						</div>
 						<div class="line-map">
-							<div class="item-map"><img src="img/pin1.svg" alt="alt">Региональные представительства</div>
-							<div class="item-map"><img src="img/pin2.svg" alt="alt">Дилеры</div>
-							<div class="item-map"><img src="img/pin3.svg" alt="alt">Склады</div>
+							<div class="item-map item-map2_1"><img src="img/pin1.svg" alt="alt">Региональные представительства</div>
+							<div class="item-map item-map2_2"><img src="img/pin2.svg" alt="alt">Дилеры</div>
+							<div class="item-map item-map2_3"><img src="img/pin3.svg" alt="alt">Склады</div>
 						</div>
 						<div id="map-contact2" class="map-contact"></div>
 					</div>
@@ -247,9 +247,9 @@
 							</div>
 						</div>
 						<div class="line-map">
-							<div class="item-map"><img src="img/pin1.svg" alt="alt">Региональные представительства</div>
-							<div class="item-map"><img src="img/pin2.svg" alt="alt">Дилеры</div>
-							<div class="item-map"><img src="img/pin3.svg" alt="alt">Склады</div>
+							<div class="item-map item-map3_1"><img src="img/pin1.svg" alt="alt">Региональные представительства</div>
+							<div class="item-map item-map3_2"><img src="img/pin2.svg" alt="alt">Дилеры</div>
+							<div class="item-map item-map3_3"><img src="img/pin3.svg" alt="alt">Склады</div>
 						</div>
 						<div id="map-contact3" class="map-contact"></div>
 					</div>
@@ -509,6 +509,22 @@
 				myMap.controls.remove('rulerControl');
 				myMap.behaviors.disable(['scrollZoom']); 
 
+
+				$('.item-map1_1').click(function() {
+					myPlacemark2.options.set({iconImageHref: ''});
+					myPlacemark3.options.set({iconImageHref: ''});
+            	    myPlacemark1.options.set({iconImageHref:   'img/pin2.svg'});
+            	}); 
+				$('.item-map1_2').click(function() {
+					myPlacemark1.options.set({iconImageHref: ''});
+					myPlacemark3.options.set({iconImageHref: ''});
+            	    myPlacemark2.options.set({iconImageHref:   'img/pin2.svg'});
+            	}); 
+				$('.item-map1_3').click(function() {
+					myPlacemark2.options.set({iconImageHref: ''});
+					myPlacemark1.options.set({iconImageHref: ''});
+            	    myPlacemark3.options.set({iconImageHref:   'img/pin3.svg'});
+            	}); 
 			}
 		});
 		$(document).ready(function() {
@@ -522,7 +538,7 @@
 					searchControlProvider: 'yandex#search'
 				});		
 
-				myPlacemark1 = new ymaps.Placemark([55.576476, 37.849107], {
+				myPlacemark2_1 = new ymaps.Placemark([55.576476, 37.849107], {
 					balloonContent: '<div class="baloon-content">Региональное представительство 1</div>',
 				}, {
 					iconLayout: 'default#image',
@@ -533,7 +549,7 @@
 					balloonOffset: [0, -43]
 				});
 
-				myPlacemark2 = new ymaps.Placemark([55.576634, 37.848162], {
+				myPlacemark2_2 = new ymaps.Placemark([55.576634, 37.848162], {
 					balloonContent: '<div class="baloon-content">Дилер 1</div>',
 				}, {
 					iconLayout: 'default#image',
@@ -544,7 +560,7 @@
 					balloonOffset: [0, -43]
 				});
 
-				myPlacemark3 = new ymaps.Placemark([55.576999, 37.846896], {
+				myPlacemark2_3 = new ymaps.Placemark([55.576999, 37.846896], {
 					balloonContent: '<div class="baloon-content">Склад 1</div>',
 				}, {
 					iconLayout: 'default#image',
@@ -555,11 +571,27 @@
 					balloonOffset: [0, -43]
 				});
 
+				$('.item-map2_1').click(function() {
+					myPlacemark2_2.options.set({iconImageHref: ''});
+					myPlacemark2_3.options.set({iconImageHref: ''});
+            	    myPlacemark2_1.options.set({iconImageHref:   'img/pin2.svg'});
+            	}); 
+				$('.item-map2_2').click(function() {
+					myPlacemark2_1.options.set({iconImageHref: ''});
+					myPlacemark2_3.options.set({iconImageHref: ''});
+            	    myPlacemark2_2.options.set({iconImageHref:   'img/pin2.svg'});
+            	}); 
+				$('.item-map2_3').click(function() {
+					myPlacemark2_2.options.set({iconImageHref: ''});
+					myPlacemark2_1.options.set({iconImageHref: ''});
+            	    myPlacemark2_3.options.set({iconImageHref:   'img/pin3.svg'});
+            	}); 
+
 				myMap.controls.remove('searchControl');
 				myMap.behaviors.disable('scrollZoom');
-				myMap.geoObjects.add(myPlacemark1);
-				myMap.geoObjects.add(myPlacemark2);
-				myMap.geoObjects.add(myPlacemark3);
+				myMap.geoObjects.add(myPlacemark2_1);
+				myMap.geoObjects.add(myPlacemark2_2);
+				myMap.geoObjects.add(myPlacemark2_3);
 
 				myMap.controls.remove('geolocationControl');
 				myMap.controls.remove('searchControl'); 
@@ -582,7 +614,7 @@
 					searchControlProvider: 'yandex#search'
 				});		
 
-				myPlacemark1 = new ymaps.Placemark([55.576476, 37.849107], {
+				myPlacemark3_1 = new ymaps.Placemark([55.576476, 37.849107], {
 					balloonContent: '<div class="baloon-content">Региональное представительство 1</div>',
 				}, {
 					iconLayout: 'default#image',
@@ -593,7 +625,7 @@
 					balloonOffset: [0, -43]
 				});
 
-				myPlacemark2 = new ymaps.Placemark([55.576634, 37.848162], {
+				myPlacemark3_2 = new ymaps.Placemark([55.576634, 37.848162], {
 					balloonContent: '<div class="baloon-content">Дилер 1</div>',
 				}, {
 					iconLayout: 'default#image',
@@ -604,7 +636,7 @@
 					balloonOffset: [0, -43]
 				});
 
-				myPlacemark3 = new ymaps.Placemark([55.576999, 37.846896], {
+				myPlacemark3_3 = new ymaps.Placemark([55.576999, 37.846896], {
 					balloonContent: '<div class="baloon-content">Склад 1</div>',
 				}, {
 					iconLayout: 'default#image',
@@ -615,11 +647,27 @@
 					balloonOffset: [0, -43]
 				});
 
+				$('.item-map3_1').click(function() {
+					myPlacemark3_2.options.set({iconImageHref: ''});
+					myPlacemark3_3.options.set({iconImageHref: ''});
+            	    myPlacemark3_1.options.set({iconImageHref:   'img/pin2.svg'});
+            	}); 
+				$('.item-map3_2').click(function() {
+					myPlacemark3_1.options.set({iconImageHref: ''});
+					myPlacemark3_3.options.set({iconImageHref: ''});
+            	    myPlacemark3_2.options.set({iconImageHref:   'img/pin2.svg'});
+            	}); 
+				$('.item-map3_3').click(function() {
+					myPlacemark3_2.options.set({iconImageHref: ''});
+					myPlacemark3_1.options.set({iconImageHref: ''});
+            	    myPlacemark3_3.options.set({iconImageHref:   'img/pin3.svg'});
+            	}); 
+
 				myMap.controls.remove('searchControl');
 				myMap.behaviors.disable('scrollZoom');
-				myMap.geoObjects.add(myPlacemark1);
-				myMap.geoObjects.add(myPlacemark2);
-				myMap.geoObjects.add(myPlacemark3);
+				myMap.geoObjects.add(myPlacemark3_1);
+				myMap.geoObjects.add(myPlacemark3_2);
+				myMap.geoObjects.add(myPlacemark3_3);
 
 				myMap.controls.remove('geolocationControl');
 				myMap.controls.remove('searchControl'); 
