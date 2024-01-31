@@ -502,6 +502,84 @@
     margin-right: 39px;
     margin-bottom: 23px;
 }
+
+.item-news__image {
+    height: 195px;
+}
+.item-news__date {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.item-news__title {
+    font-size: 16px;
+}
+.item-news__content {
+    padding: 21px;
+    padding-top: 13px;
+}
+.row_news > div {
+    margin-bottom: 25px;
+}
+.article-content h1 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.article-content {
+    font-size: 13px;
+    line-height: 170%;
+}
+.article-content time {
+    margin-bottom: 6px;
+}
+.article-content h3 {
+    font-size: 15px;
+    margin-bottom: 11px;
+    font-weight: 600;
+    line-height: 170%;
+}
+.article-content h2 {
+    margin-top: 20px;
+    margin-bottom: 11px;
+    font-size: 21px;
+}
+.title-page {
+    font-size: 26px;
+    padding-bottom: 23px;
+}
+.billbord-page {
+    height: 370px;
+    padding: 0 60px;
+    margin-bottom: 25px;
+}
+.billbord-page__title {
+    font-size: 40px;
+    margin-bottom: 3px;
+}
+.billbord-page__descr {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+.billbord-page .btn-main {
+    height: 54px;
+    padding: 0 40px;
+    font-size: 15px;
+}
+.slider-photos__item {
+    height: 245px;
+    margin: 0 7px;
+}
+.slider-photos {
+    margin: 0 -7px;
+}
+.slider-photos .slick-prev {
+    left: 7px;
+}
+.slider-photos .slick-next {
+    right: 7px;
+}
+.row_sertificats > div {
+    margin-bottom: 35px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -743,6 +821,53 @@
 }
 .item-partner {
     height: 125px;
+}
+
+.row_news > div {
+    margin-bottom: 15px;
+}
+.item-news__image {
+    height: 150px;
+}
+.item-news__content {
+    padding: 15px;
+    padding-top: 10px;
+}
+.item-news__title {
+    font-size: 15px;
+}
+.article-content h1 {
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+.article-content h2 {
+    font-size: 19px;
+}
+.billbord-page {
+    height: 310px;
+    padding: 0 40px;
+    margin-bottom: 20px;
+}
+.billbord-page__title {
+    font-size: 33px;
+    margin-bottom: 2px;
+}
+.billbord-page__descr {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.title-page {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.slider-photos__item {
+    height: 175px;
+}
+.unit-sertificat__title {
+    padding: 11px 15px;
+}
+.row_sertificats > div {
+    margin-bottom: 25px;
 }
 }
 
@@ -1092,6 +1217,19 @@ body {
     margin-right: 25px;
     margin-bottom: 18px;
 }
+
+.item-news__image {
+    height: 180px;
+}
+.header {
+    box-shadow: 0 0 10px #ccc !important;
+}
+.slider-photos__item {
+    height: 210px;
+}
+.row_sertificats .item-sertificat {
+    height: 293px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1162,6 +1300,52 @@ body {
 }
 .tabs {
     gap: 6px;
+}
+
+.item-news__image {
+    height: 135px;
+}
+.item-news__title {
+    font-size: 13px;
+}
+.item-news__date {
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+.item-news__content {
+    padding: 10px;
+    padding-top: 7px;
+}
+.row_news > div {
+    margin-bottom: 10px;
+}
+.billbord-page {
+    height: 280px;
+    padding: 0 20px;
+}
+.billbord-page__title {
+    font-size: 26px;
+}
+.billbord-page__descr {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.billbord-page .btn-main {
+    height: 45px;
+    padding: 0 23px;
+    font-size: 13px;
+}
+.slider-photos .slick-dots {
+    bottom: 0;
+}
+.slider-photos {
+    padding-bottom: 44px;
+}
+.row_sertificats .item-sertificat {
+    height: 290px;
+}
+.unit-sertificat {
+    max-width: 220px;
 }
 }
 
@@ -1265,6 +1449,38 @@ body {
 }
 .tabs a {
     line-height: 140%;
+}
+
+.item-news__image {
+    height: 115px;
+}
+.page-article {
+    padding-bottom: 40px;
+}
+.title-page {
+    font-size: 20px;
+}
+.billbord-page {
+    height: 260px;
+}
+.slider-photos {
+    padding-bottom: 35px;
+}
+.row_sertificats .item-sertificat {
+    height: 214px;
+}
+.unit-sertificat {
+    max-width: 163px;
+}
+.unit-sertificat__title {
+    padding: 9px 8px;
+    font-size: 12px;
+}
+.row_sertificats > div {
+    margin-bottom: 20px;
+}
+.page-sertificats {
+    padding-bottom: 20px;
 }
 } 
 
