@@ -1625,6 +1625,17 @@ body {
     padding-top: 5px;
     margin-right: 20px;
 }
+.tabs {
+    margin: 0;
+    display: flex;
+    max-width: 100%;
+}
+.tabs_comparsion li {
+    margin-bottom: 0;
+}
+.comparsion .title-section {
+    padding-top: 5px;
+}
 }
 
 /* Small Devices, Tablets */
