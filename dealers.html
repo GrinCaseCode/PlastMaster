@@ -1426,6 +1426,11 @@
 					iconImageOffset: [-21, -43],
 					balloonOffset: [0, -43]
 				});
+				
+				$('.item-map').click(function() {
+					$(this).addClass("active");
+					$(this).siblings().removeClass("active");
+            	}); 
 
 				$('.item-map2_1').click(function() {
 					myPlacemark2_2.options.set({iconImageHref: ''});

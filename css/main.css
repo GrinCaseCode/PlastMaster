@@ -2851,3 +2851,14 @@ background: #3167A2;
 .slider-for:not(.slick-initialized) > li:not(:first-child) {
 	display: none;
 }
+.item-map.active {
+	color: #2A60AD;
+    font-weight: 700;
+}
+.item-map:hover {
+	color: #2A60AD;
+}
+.page-contacts {
+	position: relative;
+	z-index: 2;
+}

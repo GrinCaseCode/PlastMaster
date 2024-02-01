@@ -636,6 +636,11 @@
 					balloonOffset: [0, -43]
 				});
 
+				$('.item-map').click(function() {
+					$(this).addClass("active");
+					$(this).siblings().removeClass("active");
+            	}); 
+
 				$('.item-map3_1').click(function() {
 					myPlacemark3_2.options.set({iconImageHref: ''});
 					myPlacemark3_3.options.set({iconImageHref: ''});

@@ -509,6 +509,10 @@
 				myMap.controls.remove('rulerControl');
 				myMap.behaviors.disable(['scrollZoom']); 
 
+				$('.item-map').click(function() {
+					$(this).addClass("active");
+					$(this).siblings().removeClass("active");
+            	}); 
 
 				$('.item-map1_1').click(function() {
 					myPlacemark2.options.set({iconImageHref: ''});
