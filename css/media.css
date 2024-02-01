@@ -564,10 +564,12 @@
     padding: 0 40px;
     font-size: 15px;
 }
+.slider-portfolio__item,
 .slider-photos__item {
     height: 245px;
     margin: 0 7px;
 }
+.slider-portfolio,
 .slider-photos {
     margin: 0 -7px;
 }
@@ -579,6 +581,230 @@
 }
 .row_sertificats > div {
     margin-bottom: 35px;
+}
+.slider-for__item {
+    height: 350px;
+}
+.slider-nav {
+    margin: 0 15px;
+    margin-top: 15px;
+}
+.slider-nav__item {
+    margin: 0 3px;
+    border-radius: 8px;
+    height: 85px;
+}
+.slider-nav .slick-prev {
+    left: -25px;
+}
+.slider-nav .slick-next {
+    right: -25px;
+}
+.title-card {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.feature {
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+.btn-common {
+    min-width: 194px;
+    height: 46px;
+    padding: 0 11px;
+    font-size: 13px;
+}
+.card-info {
+    padding: 11px 12px;
+    margin-right: -16px;
+    margin-left: 9px;
+    padding-bottom: 15px;
+    min-height: 355px;
+}
+.price-card {
+    font-size: 21px;
+    margin-bottom: 16px;
+}
+.card-actions .quantity {
+    margin-bottom: 16px;
+}
+.card-actions {
+    padding: 12px 13px;
+    padding-bottom: 14px;
+}
+.page-card .tabs {
+    margin-top: 25px;
+    gap: 5px;
+}
+.tab-container {
+    font-size: 13px;
+}
+.slider-page-reviews {
+    padding-bottom: 50px;
+}
+.page-reviews .item-review__date {
+    padding-top: 45px;
+}
+.item-project__title {
+    font-size: 16px;
+}
+.item-project__image {
+    height: 245px;
+}
+.item-project__content {
+    padding: 11px 15px;
+    padding-bottom: 20px;
+}
+.item-project__bottom {
+    padding-top: 13px;
+}
+.row_projects > div {
+    margin-bottom: 20px;
+}
+.slider-for_project .slider-for__item {
+    height: 363px;
+}
+.page-card-project .card-info {
+    padding: 16px 30px;
+    padding-bottom: 23px;
+}
+.page-card-project .title-page {
+    padding-bottom: 18px;
+}
+.page-card-project .feature {
+    font-size: 14px;
+}
+.item-step__name {
+    font-size: 18px;
+}
+.slider-nav-vertical__item {
+    height: 93px;
+    margin-bottom: 8px;
+}
+.slider-for-vertical__item {
+    height: 401px;
+}
+.card-info_main .btn-common {
+    min-width: 176px;
+}
+.card-info_main .btn-main {
+    padding: 0 23px;
+    margin-right: 8px;
+}
+.card-info_main .btn-main, .card-info_main .btn-common {
+    height: 46px;
+}
+.page-card-project {
+    padding-bottom: 55px;
+}
+.page-card-project .card-info_main {
+    min-height: calc(100% - 10px);
+}
+.page-card-project .title-page.title-page_slider {
+    padding-bottom: 35px;
+}
+.page-dealers .billbord-page .btn-main {
+    margin-top: 26px;
+    height: 57px;
+}
+.page-dealers .billbord-page {
+    height: 570px;
+}
+.item-advantage {
+    padding: 23px 30px;
+}
+.item-advantage__title {
+    font-size: 21px;
+    margin-bottom: 19px;
+}
+.page-dealers .row_advantages {
+    padding-bottom: 55px;
+}
+.tabs_comparsion {
+    max-width: 190px;
+}
+.image-table {
+    height: 245px;
+}
+.table-catalog tbody .td {
+    padding: 10px 0;
+}
+.name-th {
+    font-size: 12px;
+    padding: 4px 6px;
+    border-radius: 0 12px;
+}
+.table-catalog tbody td:first-child .td {
+    padding-left: 15px;
+    padding-right: 11px;
+    font-size: 12px;
+}
+.table-catalog {
+    font-size: 13px;
+}
+.table-catalog table th:nth-child(10),
+.table-catalog table th:nth-child(7),
+.table-catalog table th:nth-child(4),
+.table-catalog table td:nth-child(10),
+.table-catalog table td:nth-child(7),
+.table-catalog table td:nth-child(4) {
+	padding-right: 8px;
+}
+.table-catalog table th:nth-child(11),
+.table-catalog table th:nth-child(8),
+.table-catalog table th:nth-child(5),
+.table-catalog table td:nth-child(11),
+.table-catalog table td:nth-child(8),
+.table-catalog table td:nth-child(5) {
+	padding-left: 8px;
+}
+.table-catalog th {
+    padding: 8px 2px;
+}
+.table-catalog thead tr:first-child th {
+    padding: 0 5px;
+}
+.item-benefit p,
+.advantages-block__item p {
+    font-size: 12px;
+}
+.item-benefit__title {
+    margin-right: 0;
+}
+.item-benefit {
+    padding: 17px;
+    padding-bottom: 27px;
+}
+.advantages-block__icon,
+.item-cooperation__icon,
+.item-benefit__title::before {
+    width: 33px;
+    height: 33px;
+}
+.advantages-block__item {
+    padding-left: 46px;
+    margin-bottom: 24px;
+}
+.item-cooperation {
+    padding: 31px 18px;
+}
+.item-cooperation__icon {
+    margin-right: 20px;
+}
+.cooperation__items {
+    max-width: 681px;
+}
+.map-dealers img {
+    max-width: 1700px;
+}
+.map-dealers {
+    margin-top: -205px;
+}
+.cooperation {
+    margin-bottom: -410px;
+}
+.item-benefit__title {
+    padding-left: 46px;
 }
 }
 /* Large Devices, Wide Screens */
@@ -860,6 +1086,7 @@
     font-size: 23px;
     padding-bottom: 20px;
 }
+.slider-portfolio__item,
 .slider-photos__item {
     height: 175px;
 }
@@ -868,6 +1095,91 @@
 }
 .row_sertificats > div {
     margin-bottom: 25px;
+}
+.wrap-sliders {
+    margin-right: -10px;
+}
+.page-card .tabs a {
+    font-size: 12px;
+}
+.page-card .tabs {
+    margin-top: 20px;
+    gap: 3px;
+}
+.right-reviews {
+    margin-left: 35px;
+}
+.page-reviews .block-form .checkbox {
+    margin-top: 17px;
+}
+.item-project__image {
+    height: 200px;
+}
+.item-project__title {
+    font-size: 15px;
+}
+.page-card-project .card-info {
+    padding: 13px 20px;
+    padding-bottom: 19px;
+}
+.slider-for_project .slider-for__item {
+    height: 290px;
+}
+.item-step__name {
+    font-size: 16px;
+}
+.card-info_main .card-info__buttons {
+    flex-wrap: wrap;
+}
+.card-info_main .btn-main, .card-info_main .btn-common {
+    margin-top: 5px;
+}
+.map-dealers img {
+    max-width: 1400px;
+}
+.map-dealers {
+    margin-top: -160px;
+}
+.cooperation {
+    margin-bottom: -380px;
+}
+.table-catalog {
+    padding-bottom: 10px;
+    overflow: auto;
+}
+.table-catalog table {
+    width: 1200px;
+}
+.table-catalog::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  .table-catalog::-webkit-scrollbar:vertical {
+    width: 3px;
+  }
+  .table-catalog::-webkit-scrollbar:horizontal {
+    height: 3px;
+  }
+  .table-catalog::-webkit-scrollbar-thumb {
+    background-color: #2A60AD;
+    border-radius: 10px;
+  }
+  .table-catalog::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #d6e7ff;
+  }
+  .page-dealers .item-step__title {
+    padding: 8px 17px;
+    font-size: 10px;
+  }
+  .item-advantage__title {
+    font-size: 17px;
+    margin-bottom: 14px;
+}
+.item-advantage {
+    padding: 18px 20px;
+}
+.page-dealers .billbord-page {
+    height: 525px;
 }
 }
 
@@ -1230,6 +1542,67 @@ body {
 .row_sertificats .item-sertificat {
     height: 293px;
 }
+.card-info {
+    min-height: initial;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.card-actions {
+    margin: 0;
+}
+.wrap-sliders {
+    margin-bottom: 0;
+    margin-bottom: 20px;
+}
+.left-reviews {
+    margin-right: 0;
+}
+.right-reviews {
+    margin: 0;
+    margin-top: 20px;
+}
+.page-card-project .card-info {
+    margin-top: 15px;
+}
+.page-card-project .card-info__buttons {
+    padding-top: 15px;
+}
+.title-page_project {
+    padding-top: 10px;
+}
+.page-card-project .card-info_main {
+    margin-top: 25px;
+    min-height: initial;
+}
+.page-card-project {
+    padding-bottom: 30px;
+}
+.page-dealers .item-step p br {
+    display: none;
+}
+.item-step sup {
+    font-size: 8px;
+}
+.page-dealers .item-step__title {
+    padding: 10px 19px;
+    font-size: 12px;
+}
+.advantages-block {
+    margin-bottom: 20px;
+    min-height: initial;
+}
+.map-dealers img {
+    max-width: 100%;
+}
+.map-dealers {
+    margin: 0;
+}
+.cooperation {
+    margin: 0;
+}
+.row_benefits > div {
+    margin-top: 12px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1347,6 +1720,116 @@ body {
 .unit-sertificat {
     max-width: 220px;
 }
+.slider-portfolio {
+    padding-bottom: 37px;
+}
+.portfolio {
+    padding-bottom: 30px;
+}
+.page-card .tabs {
+    padding-bottom: 7px;
+    margin-right: -15px;
+    padding-right: 10px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.page-card .tabs li {
+    flex-grow: initial;
+}
+.page-card .tabs a {
+    font-size: 13px;
+    padding: 7px 16px;
+}
+.page-card .tabs::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+.page-card .tabs::-webkit-scrollbar:vertical {
+    width: 3px;
+  }
+.page-card .tabs::-webkit-scrollbar:horizontal {
+    height: 3px;
+  }
+.page-card .tabs::-webkit-scrollbar-thumb {
+    background-color: #2A60AD;
+    border-radius: 10px;
+  }
+.page-card .tabs::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #d6e7ff;
+  }
+  .page-reviews .item-review__date {
+        padding-top: 25px;
+    }
+    .item-project__image {
+        height: 255px;
+    }
+    .col_for {
+        order: -1;
+    }
+    .slider-for-vertical__item {
+        height: 345px;
+    }
+    .page-card-project .title-page.title-page_slider {
+        padding-bottom: 20px;
+    }
+    .slider-nav-vertical {
+        padding: 0 19px;
+        margin-top: 15px;
+    }
+    .slider-nav-vertical__item {
+        margin: 0 3px;
+    }
+    .slider-nav-vertical .slick-arrow {
+        transform: none;
+        top: 50%;
+        left: -5px;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        margin: 0;
+    }
+    .slider-nav-vertical .slick-next {
+        right: -5px;
+        left: auto;
+    }
+    .page-dealers {
+        padding-top: 0;
+    }
+    .page-dealers .billbord-page {
+        margin: 0 -15px;
+        height: 450px;
+    }
+    .page-dealers .billbord-page .btn-main {
+        height: 50px;
+        padding: 0 30px;
+    }
+    .table-catalog {
+        margin-right: -15px;
+    }
+    .col-lg-8 .advantages-block {
+        columns: initial;
+    }
+    .item-benefit p, .advantages-block__item p {
+        font-size: 13px;
+    }
+    .advantages-block__item {
+        margin-bottom: 20px;
+    }
+    .advantages-block__item:last-child {
+        margin-bottom: 0;
+    }
+    .item-cooperation {
+        padding: 25px 15px;
+        display: block;
+    }
+    .item-cooperation__icon {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .map-dealers {
+        margin-bottom: 15px;
+    }
+    
 }
 
 /* Extra Small Devices, Phones */
@@ -1481,6 +1964,58 @@ body {
 }
 .page-sertificats {
     padding-bottom: 20px;
+}
+.modal-block {
+    padding: 30px;
+}
+.slider-page-reviews {
+    padding-bottom: 35px;
+}
+.item-project__image {
+    height: 225px;
+}
+.page-card-project {
+    padding-bottom: 20px;
+}
+.card-info_main .btn-main, .card-info_main .btn-common {
+   min-width: 190px;
+}
+.card-info_main .card-info__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.slider-nav_project .slider-nav__item {
+    height: 60px;
+}
+.slider-for_project .slider-for__item {
+    height: 245px;
+}
+.page-card-project .title-page br {
+    display: none;
+}
+.page-card-project .feature {
+    font-size: 13px;
+}
+.page-card-project .card-info {
+    padding: 12px 13px;
+    padding-bottom: 17px;
+}
+.slider-nav-vertical__item {
+    height: 75px;
+}
+.page-dealers .billbord-page {
+    height: 410px;
+}
+.item-benefit__title {
+    padding: 0;
+}
+.item-benefit__title::before {
+    display: none;
+}
+.item-benefit {
+    padding: 15px 10px;
+    padding-bottom: 15px;
 }
 } 
 
