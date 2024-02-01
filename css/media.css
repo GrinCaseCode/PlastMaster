@@ -1604,6 +1604,8 @@ body {
     margin-top: 12px;
 }
 .card-actions {
+    padding: 15px 13px;
+    padding-bottom: 6px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -1620,6 +1622,7 @@ body {
     max-width: 250px;
 }
 .card-actions__top {
+    padding-top: 5px;
     margin-right: 20px;
 }
 }
@@ -2037,7 +2040,7 @@ body {
     padding-bottom: 15px;
 }
 .slider-portfolio__item {
-    height: 190px;
+    height: 200px;
 }
 } 
 
