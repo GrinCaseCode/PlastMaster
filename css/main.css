@@ -2014,7 +2014,6 @@ background: #3167A2;
 	border-radius: 10px;
 	opacity: 0.5;
 	background: #292D32;
-	background-blend-mode: multiply;
 	mix-blend-mode: multiply;
 }
 .billbord-page .btn-main {
@@ -2564,7 +2563,7 @@ background: #3167A2;
 	height: 66px;
 }
 .page-dealers .billbord-page__image::after {
-	background-blend-mode: overlay;
+	mix-blend-mode: multiply;
 	background: #292D32;
 }
 .row_advantages > div {
