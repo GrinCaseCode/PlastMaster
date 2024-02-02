@@ -2015,6 +2015,7 @@ background: #3167A2;
 	opacity: 0.5;
 	background: #292D32;
 	background-blend-mode: multiply;
+	mix-blend-mode: multiply;
 }
 .billbord-page .btn-main {
 	height: 60px;
